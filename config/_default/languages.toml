@@ -7,6 +7,17 @@
   languageCode = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
+#[ja]
+#  languageCode = "ja"
+#  contentDir = "content/ja"
+#  title = "Japanese website title..."
+#  [ja.params]
+#    description = "Site description in Japanese..."
+#  [[ja.menu.main]]
+#    name = "Wo"
+#    url = "#about"
+#    weight = 1
+
 #[zh]
 #  languageCode = "zh-Hans"
 #  contentDir = "content/zh"

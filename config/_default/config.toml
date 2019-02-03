@@ -13,7 +13,7 @@ baseurl = "/"
 
 # Enter a copyright notice to display in the site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = ""
+copyright = "&copy;2015 - 2019"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -33,7 +33,7 @@ enableGitInfo = false
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
+hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 defaultContentLanguageInSubdir = false
 
 paginate = 10  # Number of items per page in paginated lists.
@@ -60,3 +60,6 @@ preserveTaxonomyNames = true
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[permalinks]
+    post = "/blog/:year/:month/:day/:slug"

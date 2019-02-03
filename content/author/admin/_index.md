@@ -1,22 +1,23 @@
 +++
 # Display name
-name = "Nelson Bighetti"
+name = "Yang Xiao"
 
 # Is this the primary user of the site?
 superuser = true
 
 # Role/position
-role = "Professor of Artificial Intelligence"
+role = "Software Engineer"
 
 # Organizations/Affiliations
 #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-organizations = [ { name = "Stanford University", url = "" } ]
+organizations = [ 
+]
 
 # Short bio (displayed in user profile at end of posts)
-bio = "My research interests include distributed robotics, mobile computing and programmable matter."
+bio = "Software Engineer interested in Scala/Akka/Elixir/VueJs/格ゲー/アニメ"
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email = ""
+email = "example@example.com"
 
 # List (academic) interests or hobbies
 interests = [
@@ -26,16 +27,6 @@ interests = [
 ]
 
 # List qualifications (such as academic degrees)
-[[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2009
-
 [[education.courses]]
   course = "BSc in Artificial Intelligence"
   institution = "Massachusetts Institute of Technology"
@@ -68,11 +59,6 @@ interests = [
   icon = "twitter"
   icon_pack = "fab"
   link = "https://twitter.com/GeorgeCushen"
-
-[[social]]
-  icon = "google-scholar"
-  icon_pack = "ai"
-  link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
 
 [[social]]
   icon = "github"
