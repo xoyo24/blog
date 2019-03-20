@@ -1,2 +1,5 @@
 public/
+# IDE specific
 .idea/
+.vscode/
+resources/
