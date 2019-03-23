@@ -5,26 +5,33 @@
 # Configure the English version of the site.
 [en]
   languageCode = "en-us"
+  LanguageName = "English"
+  contentDir = "content/en"
+  baseURL = "/"
 
 # Uncomment the lines below to configure your website in a second language.
-#[ja]
-#  languageCode = "ja"
-#  contentDir = "content/ja"
-#  title = "Japanese website title..."
-#  [ja.params]
-#    description = "Site description in Japanese..."
-#  [[ja.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[ja]
+  languageCode = "ja"
+  LanguageName = "日本語"
+  contentDir = "content/ja"
+  title = "Japanese website title..."
+  baseURL = "/ja/"
+  [ja.params]
+    description = "Site description in Japanese..."
+  [[ja.menu.main]]
+    name = "Wo"
+    url = "#about"
+    weight = 1
 
-#[zh]
-#  languageCode = "zh-Hans"
-#  contentDir = "content/zh"
-#  title = "Chinese website title..."
-#  [zh.params]
-#    description = "Site description in Chinese..."
-#  [[zh.menu.main]]
-#    name = "Wo"
-#    url = "#about"
-#    weight = 1
+[zh]
+  languageCode = "zh-Hans"
+  LanguageName = "中文"
+  contentDir = "content/zh"
+  title = "Chinese website title..."
+  baseURL = "/zh/"
+  [zh.params]
+    description = "Site description in Chinese..."
+  [[zh.menu.main]]
+    name = "Wo"
+    url = "#about"
+     weight = 1

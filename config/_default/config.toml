@@ -1,9 +1,9 @@
 # Title of your site
-title = "XY"
+title = "XoYo24's Blog"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+# baseurl = "/"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = ""
@@ -41,7 +41,7 @@ pygmentsCodefencesGuessSyntax = true
 
 
 [author]                  # essential                     # 必需
-  name = "xy"
+  name = "xoyo24"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
