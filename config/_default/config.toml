@@ -1,46 +1,34 @@
 # Title of your site
-title = "XoYo24's Blog"
+title = "XoYo24"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-# baseurl = "/"
+baseurl = "/"
+theme = "keep_it"
+paginate = 5
+enableEmoji = true
+enableRobotsTXT = true
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+# googleAnalytics = ""
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+# disqusShortname = ""
+
+# Used only for Seo schema 
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 ############################
 ## Advanced options below ##
 ############################
-
-# Name of Academic theme folder in `themes/`.
-theme = "xy"
-
 # Get last modified date for content from Git?
 enableGitInfo = false
-
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
 hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
+footnotereturnlinkcontents = "↩"
 
-paginate = 10  # Number of items per page in paginated lists.
-enableEmoji = true
-enableRobotsTXT = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-preserveTaxonomyNames = true
-
-# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
-pygmentsOptions = "linenos=table"
-pygmentsCodefences = true
-pygmentsUseClasses = true
-pygmentsCodefencesGuessSyntax = true
-
-
-[author]                  # essential                     # 必需
+[author]
   name = "xoyo24"
 
 [sitemap]                 # essential                     # 必需
@@ -48,13 +36,18 @@ pygmentsCodefencesGuessSyntax = true
   priority = 0.5
   filename = "sitemap.xml"
 
+[blackfriday]
+  hrefTargetBlank = true
+  nofollowLinks = true
+  noreferrerLinks = true
+
 [taxonomies]
   tag = "tags"
   category = "categories"
   author = "authors"
 
 [permalinks]
-    post = "/blog/:year/:month/:day/:slug"
+    post = "/:year/:month/:slug"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

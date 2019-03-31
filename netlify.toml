@@ -7,4 +7,4 @@
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
-  HUGO_ENV = "production"
+  HUGO_ENV = "production hugo --gc --minify"

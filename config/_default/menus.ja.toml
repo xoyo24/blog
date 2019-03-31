@@ -3,26 +3,20 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
-[[main]]             # config your menu              # 配置目录
-  name = "Home"
-  weight = 10
-  identifier = "home"
-  url = "/"
-
 [[main]]
-  name = "Archives"
+  name = "記事"
   weight = 20
   identifier = "archives"
-  url = "/post/"
+  url = "/posts/"
 
 [[main]]
-  name = "Tags"
+  name = "タグ"
   weight = 30
   identifier = "tags"
   url = "/tags/"
 
 [[main]]
-  name = "Categories"
+  name = "分類"
   weight = 40
   identifier = "categories"
   url = "/categories/"
