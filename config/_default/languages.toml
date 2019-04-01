@@ -7,10 +7,10 @@
   languageCode = "ja"
   LanguageName = "日本語"
   contentDir = "content/ja"
-  title = "Japanese website title..."
+  # title = "Japanese website title..."
 
 [zh]
   languageCode = "zh-Hans"
   LanguageName = "中文"
   contentDir = "content/zh"
-  title = "Chinese website title..."
+  # title = "Chinese website title..."

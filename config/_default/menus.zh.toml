@@ -7,19 +7,19 @@
   name = "博客"
   weight = 20
   identifier = "archives"
-  url = "/posts/"
+  url = "/zh/posts/"
 
 [[main]]
   name = "标签"
   weight = 30
   identifier = "tags"
-  url = "/tags/"
+  url = "/zh/tags/"
 
 [[main]]
   name = "分类"
   weight = 40
   identifier = "categories"
-  url = "/categories/"
+  url = "/zh/categories/"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
