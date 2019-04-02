@@ -1,16 +1,16 @@
 # Theme config
-since = 2016
-author = "xoyo24"               # Author's name
-subtitle = "A Hugo theme"       # Subtitle
+# since = 2016
+# author = "肖杨"               # Author's name
+# subtitle = "A Hugo theme"       # Subtitle
 # cdn_url = ""           # Base CDN URL
 # home_mode = "post"
 
 # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-keywords = ["Hugo", "theme","even", "Chinease"]
-description = "Chinease Hugo theme even example site."
+# keywords = ["Hugo", "theme","even", "Chinease"]
+# description = "Chinease Hugo theme even example site."
 
 # # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-# dateFormatToUse = "2006-01-02"
+# dateFormatToUse = "2006年01月02日"
 
 # google_verification = ""
 # bing_verification = ""
@@ -21,7 +21,7 @@ description = "Chinease Hugo theme even example site."
 # avatar = "/images/me/avatar.png" #comment it to use gravatar
 # socialShare = true
 
-# license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+license= '本文采用<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可'
 
 # [gravatar]
 #   #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar

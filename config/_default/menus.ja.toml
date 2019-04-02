@@ -4,22 +4,28 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "記事"
+  name = "Blog"
   weight = 20
-  identifier = "archives"
+  identifier = "posts"
   url = "/ja/posts/"
 
 [[main]]
-  name = "タグ"
+  name = "Categories"
   weight = 30
-  identifier = "tags"
-  url = "/ja/tags/"
-
-[[main]]
-  name = "分類"
-  weight = 40
   identifier = "categories"
   url = "/ja/categories/"
+
+# [[main]]
+#   name = "タグ"
+#   weight = 30
+#   identifier = "tags"
+#   url = "/ja/tags/"
+
+[[main]]
+  name = "About"
+  weight = 50
+  identifier = "about"
+  url = "/ja/about"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

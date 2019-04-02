@@ -10,16 +10,22 @@
   url = "/zh/posts/"
 
 [[main]]
-  name = "标签"
-  weight = 30
-  identifier = "tags"
-  url = "/zh/tags/"
-
-[[main]]
   name = "分类"
-  weight = 40
+  weight = 30
   identifier = "categories"
   url = "/zh/categories/"
+
+# [[main]]
+#   name = "标签"
+#   weight = 40
+#   identifier = "tags"
+#   url = "/zh/tags/"
+
+[[main]]
+  name = "关于"
+  weight = 50
+  identifier = "about"
+  url = "/zh/about"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.

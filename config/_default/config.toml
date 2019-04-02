@@ -3,7 +3,7 @@ title = "XoYo24"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "/"
+baseurl = "https://xoyo24.fun/"
 theme = "keep_it"
 paginate = 5
 enableEmoji = true
@@ -24,12 +24,12 @@ copyright = "This work is licensed under a Creative Commons Attribution-NonComme
 # Get last modified date for content from Git?
 enableGitInfo = false
 # Default language to use (if you setup multilingual support)
-defaultContentLanguage = "en"                             # en / zh-cn / ... (This field determines which i18n file to use)
+defaultContentLanguage = "en"    # en / ja/ zh-cn / ..
 hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 footnotereturnlinkcontents = "↩"
 
 [author]
-  name = "xoyo24"
+  name = "XIAO Yang"
 
 [sitemap]                 # essential                     # 必需
   changefreq = "weekly"
@@ -47,7 +47,7 @@ footnotereturnlinkcontents = "↩"
   author = "authors"
 
 [permalinks]
-    post = "/:year/:month/:slug"
+    post = "/:year/:month/:day/:slug"
 
 # See https://gohugo.io/about/hugo-and-gdpr/
 [privacy]

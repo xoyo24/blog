@@ -1,16 +1,13 @@
 [en]
   languageCode = "en-us"
-  LanguageName = "English"
   contentDir = "content/en"
 
 [ja]
   languageCode = "ja"
-  LanguageName = "日本語"
   contentDir = "content/ja"
   # title = "Japanese website title..."
 
 [zh]
   languageCode = "zh-Hans"
-  LanguageName = "中文"
   contentDir = "content/zh"
   # title = "Chinese website title..."

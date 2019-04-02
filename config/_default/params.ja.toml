@@ -1,16 +1,16 @@
 # Theme config
-since = 2016
-author = "xoyo24"               # Author's name
-subtitle = "A Hugo theme"       # Subtitle
+# since = 2016
+# author = "肖楊"               # Author's name
+# subtitle = "A Hugo theme"       # Subtitle
 # cdn_url = ""           # Base CDN URL
 # home_mode = "post"
 
 # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
-keywords = ["Hugo", "theme","even", "Japanease"]
-description = "Japanease Hugo theme even example site."
+# keywords = ["Hugo", "theme","even", "Japanease"]
+# description = "Japanease Hugo theme even example site."
 
 # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-dateFormatToUse = "2006-01-02"
+# dateFormatToUse = "2006年01月02日"
 
 # google_verification = ""
 # bing_verification = ""

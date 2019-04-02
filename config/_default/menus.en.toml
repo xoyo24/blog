@@ -6,20 +6,27 @@
 [[main]]
   name = "Blog"
   weight = 20
-  identifier = "archives"
+  identifier = "posts"
   url = "/posts/"
 
 [[main]]
-  name = "Tags"
-  weight = 30
-  identifier = "tags"
-  url = "/tags/"
-
-[[main]]
   name = "Categories"
-  weight = 40
+  weight = 30
   identifier = "categories"
   url = "/categories/"
+
+# [[main]]
+# name = "Tags"
+# # parent = "categories"
+# weight = 40
+# identifier = "tags"
+# url = "/tags/"
+
+[[main]]
+  name = "About"
+  weight = 50
+  identifier = "about"
+  url = "/about"
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
