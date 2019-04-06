@@ -5,7 +5,7 @@ title = "XoYo24"
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://xoyo24.fun/"
 theme = "keep_it"
-paginate = 5
+paginate = 10
 enableEmoji = true
 enableRobotsTXT = true
 
