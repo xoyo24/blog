@@ -18,15 +18,15 @@ yandex_verification = ""
 pinterest_verification = ""
 baidu_verification = ""
 
-avatar = "/images/me/avatar.png" #comment it to use gravatar
 socialShare = true
 
 license= 'This work is licensed under a <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">Creative Commons Attribution-NonCommercial 4.0 International License</a>.'
 
 showWordCount = false
 
+# avatar = "/images/me/avatar.png" #comment it to use gravatar
 [gravatar]
-  #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+  email = "xoyo24@gmail.com"   #uncomment and insert your email address to use gravatar
 
 [social]
   GitHub = "xoyo24"

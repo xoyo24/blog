@@ -17,6 +17,7 @@
 
 # [[main]]
 #   name = "标签"
+# parent = "categories"
 #   weight = 40
 #   identifier = "tags"
 #   url = "/zh/tags/"

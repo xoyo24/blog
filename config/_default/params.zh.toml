@@ -85,18 +85,18 @@ license= '本文采用<a rel="license external nofollow noopener noreffer" href=
 #   #Mastodon = "xxxx"
 #   #Thingiverse = "xxxx"
 
-# [share]
-#   Twitter = true
-#   Facebook = true
-#   #Reddit = true
-#   Linkedin = true
-#   #Pinterest = true
-#   #HackerNews = true
-#   #Mix = true
-#   #Tumblr = true
-#   #VKontakte = true
-#   #Douban = true
-#   #Weibo = true
+[share]
+  Twitter = true
+  Facebook = true
+  #Reddit = true
+  # Linkedin = true
+  #Pinterest = true
+  #HackerNews = true
+  #Mix = true
+  #Tumblr = true
+  #VKontakte = true
+  #Douban = true
+  Weibo = true
 
 # [gitalk]
 #   owner = ""

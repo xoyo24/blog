@@ -17,7 +17,7 @@
 
 # [[main]]
 # name = "Tags"
-# # parent = "categories"
+# parent = "categories"
 # weight = 40
 # identifier = "tags"
 # url = "/tags/"

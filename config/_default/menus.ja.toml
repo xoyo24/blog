@@ -17,6 +17,7 @@
 
 # [[main]]
 #   name = "タグ"
+# parent = "categories"
 #   weight = 30
 #   identifier = "tags"
 #   url = "/ja/tags/"
