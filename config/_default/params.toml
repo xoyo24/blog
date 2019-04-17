@@ -100,8 +100,16 @@ avatar = "/images/me/doge.jpeg"  #comment it to use gravatar
   # Douban = true
   # Weibo = true
 
-[gitalk]
-  owner = ""
-  repo = ""
-  clientId = ""
-  clientSecret = ""
+# Gitalk 评论配置（gitalk 请参考：https://github.com/gitalk/gitalk）
+[gitalk] 
+    owner = ""              # Your GitHub ID
+    admin = ""      # GitHub repository owner and collaborators
+    repo = ""               # The repo to store comments
+    clientId = ""           # Your client ID
+    clientSecret = ""       # Your client secret
+    countSign = "条评论"
+
+# disqus 评论配置
+[disqus]
+    name = "xoyo24"      # disqus_shortname
+    lazy = true         # lazy to load disqus
