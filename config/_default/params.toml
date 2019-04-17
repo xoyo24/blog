@@ -24,9 +24,9 @@ license= 'Released under <a rel="license" href="http://creativecommons.org/licen
 
 showWordCount = false
 
-# avatar = "/images/me/avatar.png" #comment it to use gravatar
-[gravatar]
-  email = "xoyo24@gmail.com"   #uncomment and insert your email address to use gravatar
+avatar = "/images/me/doge.jpeg"  #comment it to use gravatar
+#[gravatar]
+#  email = "xoyo24@gmail.com"   #uncomment and insert your email address to use gravatar
 
 [social]
   GitHub = "xoyo24"
