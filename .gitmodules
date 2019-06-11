@@ -4,6 +4,3 @@
 [submodule "themes/hello"]
 	path = themes/hello
 	url = https://github.com/xoyo24/hugo-theme-hello-friend.git
-[submodule "themes/keep_it"]
-	path = themes/keep_it
-	url = https://github.com/xoyo24/KeepIt.git
