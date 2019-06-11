@@ -4,16 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Blog"
+  name = "Posts"
   weight = 20
   identifier = "posts"
   url = "/posts/"
 
-[[main]]
-  name = "Categories"
-  weight = 30
-  identifier = "categories"
-  url = "/categories/"
+# [[main]]
+#   name = "Categories"
+#   weight = 30
+#   identifier = "categories"
+#   url = "/categories/"
 
 # [[main]]
 # name = "Tags"

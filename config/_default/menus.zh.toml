@@ -4,16 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "博客"
+  name = "Posts"
   weight = 20
-  identifier = "archives"
+  identifier = "posts"
   url = "/zh/posts/"
 
-[[main]]
-  name = "分类"
-  weight = 30
-  identifier = "categories"
-  url = "/zh/categories/"
+# [[main]]
+#   name = "分类"
+#   weight = 30
+#   identifier = "categories"
+#   url = "/zh/categories/"
 
 # [[main]]
 #   name = "标签"
@@ -23,7 +23,7 @@
 #   url = "/zh/tags/"
 
 [[main]]
-  name = "关于"
+  name = "About"
   weight = 50
   identifier = "about"
   url = "/zh/about"

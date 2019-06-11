@@ -4,16 +4,18 @@ title = "XoYo24"
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 baseurl = "https://xoyo24.fun/"
-theme = "keep_it"
+theme = "hermit"
 paginate = 15
 enableEmoji = true
 enableRobotsTXT = true
 comment = true            # 是否开启评论
 toc = true                # 是否开启目录
 autoCollapseToc = true   # Auto expand and collapse toc
+rssLimit = 100
 
 # Enable analytics by entering your Google Analytics tracking ID
 # googleAnalytics = ""
+# disqusShortname = ""
 
 # Used only for Seo schema 
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
@@ -30,7 +32,7 @@ footnotereturnlinkcontents = "↩"
 
 
 # pygmentsCodeFencesGuessSyntax = true
-# pygmentsStyle = "native"_
+# pygmentsStyle = "native"
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 
@@ -49,8 +51,8 @@ pygmentsCodeFences = true
 
 [taxonomies]
   tag = "tags"
-  category = "categories"
-  author = "authors"
+  # category = "categories"
+  # author = "authors"
 
 [permalinks]
     post = "/:year/:month/:day/:slug"

@@ -1,16 +1,30 @@
 # Theme config
 since = 2016
 author = "XIAO Yang"               # Author's name
-subtitle = "Let It Crash"       # Subtitle
+homeSubtitle = "Let It Crash"       # Subtitle
+footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+# bgImg = ""  # Homepage background-image URL
+
+# Prefix of link to the git commit detail page. GitInfo must be enabled.
+# gitUrl = "https://github.com/username/repository/commit/"
+
+# Toggling this option needs to rebuild SCSS, requires Hugo extended version
+justifyContent = false  # Set "text-align: justify" to `.content`.
+
+# Add custom css
+# customCSS = ["css/foo.css", "css/bar.css"]
 # cdn_url = ""           # Base CDN URL
 # home_mode = "post"
 
 # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
 keywords = ["Blog", "xoyo24", "scala", "akka", "play framework", "git", "programming", "software", "engineering", "Development", "Scala", "Akka", "Actor Modle", "Elixir", "Microservices", "Docker", "Kubernetes"]
-description = "Personnal blog for xoyo24. Software Development Engineer base in Japan. Mainly foucus FunctinalProgramming/Distributed System/Software Architecture"
+description = "Personnal blog for xoyo24. Software Development Engineer base in Japan. Mainly foucus Functinal Programming/Distributed System/Software Architecture"
 
 # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-dateFormatToUse = "Jan 2, 2006"
+dateform        = "Jan 2, 2006"
+dateformShort   = "Jan 2"
+dateformNum     = "2006-01-02"
+dateformNumTime = "2006-01-02 15:04 -0700"
 
 google_verification = ""
 bing_verification = ""
@@ -20,7 +34,7 @@ baidu_verification = ""
 
 socialShare = true
 
-license= 'Released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.'
+# license= 'Released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.'
 
 showWordCount = false
 

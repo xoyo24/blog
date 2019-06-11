@@ -4,16 +4,16 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "記事"
+  name = "Posts"
   weight = 20
   identifier = "posts"
   url = "/ja/posts/"
 
-[[main]]
-  name = "カテゴリー"
-  weight = 30
-  identifier = "categories"
-  url = "/ja/categories/"
+# [[main]]
+#   name = "カテゴリー"
+#   weight = 30
+#   identifier = "categories"
+#   url = "/ja/categories/"
 
 # [[main]]
 #   name = "タグ"
