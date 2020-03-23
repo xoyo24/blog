@@ -9,11 +9,11 @@
   identifier = "posts"
   url = "/posts/"
 
-# [[main]]
-#   name = "Categories"
-#   weight = 30
-#   identifier = "categories"
-#   url = "/categories/"
+[[main]]
+  name = "Categories"
+  weight = 30
+  identifier = "categories"
+  url = "/categories/"
 
 # [[main]]
 # name = "Tags"
