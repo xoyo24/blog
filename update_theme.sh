@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Display available updates.
-cd themes/xy
+cd themes/jane
 git fetch
 git log --pretty=oneline --abbrev-commit --decorate HEAD..origin/master
 cd ../../
