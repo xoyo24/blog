@@ -1,6 +1,6 @@
 # see https://gohugo.io/getting-started/configuration/ .
 title = "XoYo24"
-baseurl = "https://xoyo24.me/"
+baseurl = "https://zen-yonath-d0cf2b.netlify.com/"
 theme = "jane"
 enableEmoji = true
 enableRobotsTXT = true

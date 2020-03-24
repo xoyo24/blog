@@ -2,7 +2,7 @@
   languageName = "English"
   contentDir = "content/en"
 
-[zh]
+[zh-cn]
   languageName = "中文"
   contentDir = "content/zh"
   languageCode = "zh-Hans"
