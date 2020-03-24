@@ -3,31 +3,36 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+[[main]]             # config your menu              # 配置目录
+  name = "主页"
+  weight = 10
+  identifier = "home"
+  url = "/zh/"
 [[main]]
-  name = "Posts"
+  name = "归档"
   weight = 20
   identifier = "posts"
-  url = "/zh/posts/"
-
-# [[main]]
-#   name = "分类"
-#   weight = 30
-#   identifier = "categories"
-#   url = "/zh/categories/"
-
-# [[main]]
-#   name = "标签"
-# parent = "categories"
-#   weight = 40
-#   identifier = "tags"
-#   url = "/zh/tags/"
-
+  url = "/zh/post/"
 [[main]]
-  name = "About"
+  name = "分类"
+  weight = 30
+  identifier = "categories"
+  url = "/zh/categories/"
+[[main]]
+  name = "标签"
+  weight = 40
+  identifier = "tags"
+  url = "/zh/tags/"
+[[main]]
+  name = "关于"
   weight = 50
   identifier = "about"
   url = "/zh/about"
 
+# [[menu.main]]
+#   name = "external-link"
+#   weight = 50
+#   url = "https://gohugo.io"
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

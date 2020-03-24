@@ -1,129 +1,38 @@
 # Theme config
-since = 2016
-author = "XIAO Yang"               # Author's name
-homeSubtitle = "Let It Crash"       # Subtitle
-footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
-# bgImg = ""  # Homepage background-image URL
-
-# Prefix of link to the git commit detail page. GitInfo must be enabled.
-# gitUrl = "https://github.com/username/repository/commit/"
-
-# Toggling this option needs to rebuild SCSS, requires Hugo extended version
-justifyContent = false  # Set "text-align: justify" to `.content`.
-
-# Add custom css
-# customCSS = ["css/foo.css", "css/bar.css"]
-# cdn_url = ""           # Base CDN URL
-# home_mode = "post"
+since = 2020
+homeFullContent = false   # if false, show post summaries on home page. Othewise show full content.
+rssFullContent = true     # if false, Rss feed instead of the summary
+mainSections = ["post"]
 
 # site info (optional)                                  # 站点信息（可选，不需要的可以直接注释掉）
 keywords = ["Blog", "xoyo24", "scala", "akka", "play framework", "git", "programming", "software", "engineering", "Development", "Scala", "Akka", "Actor Modle", "Elixir", "Microservices", "Docker", "Kubernetes"]
 description = "Personnal blog for xoyo24. Software Development Engineer base in Japan. Mainly foucus Functinal Programming/Distributed System/Software Architecture"
 
+archive-paginate = 30
+
 # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
-dateform        = "Jan 2, 2006"
-dateformShort   = "Jan 2"
-dateformNum     = "2006-01-02"
-dateformNumTime = "2006-01-02 15:04 -0700"
+dateFormatToUse = "2006-01-02"
 
-google_verification = ""
-bing_verification = ""
-yandex_verification = ""
-pinterest_verification = ""
-baidu_verification = ""
+# show word count and read time ?                       # 是否显示字数统计与阅读时间
+moreMeta = true
 
-socialShare = true
+# show language chooser in menu
+showMenuLanguageChooser = true
 
-# license= 'Released under <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">CC BY-NC 4.0</a>.'
+# showAuthorInfo = true # show author info below the article
 
-showWordCount = false
-
-avatar = "/images/me/doge.jpeg"  #comment it to use gravatar
-#[gravatar]
-#  email = "xoyo24@gmail.com"   #uncomment and insert your email address to use gravatar
+# 一些全局开关，你也可以在每一篇内容的 front matter 中针对单篇内容关闭或开启某些功能，在 archetypes/default.md 查看更多信息。
+# Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+toc = true                                                                            # 是否开启目录
+photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
+bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
+mathjax = false           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
+katex = false             # see https://github.com/KaTeX/KaTeX
+contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
 
 [social]
-  GitHub = "xoyo24"
-  # Linkedin = "xoyo24"
-  Twitter = "xoyo24"
-  #Instagram = "xxxx"
-  Email   = "xoyo24@gmail.com"
-  # Facebook = "xoyo24"
-  #Telegram = "xxxx"
-  #Medium = "xxxx"
-  #Gitlab = "xxxx"
-  #Youtubelegacy = "xxxx"
-  #Youtubecustom = "xxxx"
-  #Youtubechannel = "xxxx"
-  #Tumblr ="xxxx"
-  #Quora = "xxxx"
-  #Keybase = "xxxx"
-  #Pinterest = "xxxx"
-  #Reddit = "xxxx"
-  #Codepen = "xxxx"
-  #Bitbucket = "xxxx"
-  #Stackoverflow = "xxxxx"
-  #Weibo = "xxxx"
-  #Odnoklassniki = "xxxx"
-  #VKontakte = "xxxx"
-  #Flickr = "xxxx"
-  #Xing = "xxxx"
-  #Snapchat = "xxxx"
-  #Soundcloud = "xxxx"
-  #Spotify = "xxxx"
-  #Bandcamp = "xxxx"
-  #Paypal = "xxxx"
-  #Fivehundredpx = "xxxx"
-  #Mix = "xxxx"
-  #Goodreads = "xxxx"
-  #Lastfm = "xxxx"
-  #Foursquare = "xxxx"
-  #Hackernews = "xxxx"
-  #Kickstarter = "xxxx"
-  #Patreon = "xxxx"
-  #Steam = "xxxx"
-  #Twitch = "xxxx"
-  #Strava = "xxxx"
-  #Skype = "xxxx"
-  #Whatsapp = "xxxx"
-  #Zhihu = "xxxx"
-  #Douban = "xxxx"
-  #Angellist = "xxxx"
-  #Slidershare = "xxxx"
-  #Jsfiddle = "xxxx"
-  #Deviantart = "xxxx"
-  #Behance = "xxxx"
-  #Dribble = "xxxx"
-  #Wordpress = "xxxx"
-  #Vine = "xxxx"
-  #Googlescholar = "xxxx"
-  #Researchgate = "xxxx"
-  #Mastodon = "xxxx"
-  #Thingiverse = "xxxx"
-
-[share]
-  Twitter = true
-  Facebook = true
-  # Reddit = true
-  # Linkedin = true
-  # Pinterest = true
-  # HackerNews = true
-  # Mix = true
-  # Tumblr = true
-  # VKontakte = true
-  # Douban = true
-  # Weibo = true
-
-# Gitalk 评论配置（gitalk 请参考：https://github.com/gitalk/gitalk）
-[gitalk] 
-    owner = ""              # Your GitHub ID
-    admin = ""      # GitHub repository owner and collaborators
-    repo = ""               # The repo to store comments
-    clientId = ""           # Your client ID
-    clientSecret = ""       # Your client secret
-    countSign = "条评论"
-
-# disqus 评论配置
-[disqus]
-    name = "xoyo24"      # disqus_shortname
-    lazy = true         # lazy to load disqus
+  c-twitter = "http://localhost:1313"
+  g-github = "http://localhost:1313"
+  b-stack-overflow = "http://localhost:1313"
+  # e-linkedin = "http://localhost:1313"
+  # s-mastodon = "http://localhost:1313"

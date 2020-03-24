@@ -1,40 +1,31 @@
-# Title of your site
+# see https://gohugo.io/getting-started/configuration/ .
 title = "XoYo24"
-
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://xoyo24.fun/"
-theme = "hermit"
-paginate = 15
+baseurl = "https://xoyo24.me/"
+theme = "jane"
 enableEmoji = true
 enableRobotsTXT = true
-comment = true            # 是否开启评论
-toc = true                # 是否开启目录
-autoCollapseToc = true   # Auto expand and collapse toc
-rssLimit = 100
 
-# Enable analytics by entering your Google Analytics tracking ID
-# googleAnalytics = ""
-# disqusShortname = ""
-
+hasCJKLanguage = true     # has chinese/japanese/korean ? # 自动检测是否包含 中文\日文\韩文
+paginate = 10              # Number of articles displayed on the homepage  # 首页每页显示的文章数
+rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输出数量
+copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 # Used only for Seo schema 
-copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+# copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+disqusShortname = "xoyo24"      # disqus_shortname
+googleAnalytics = ""      # UA-XXXXXXXX-X
+enableGitInfo = true      # Get last modified date for content from Git?
+# uglyURLs = true           # more info: https://gohugo.io/content-management/urls/#ugly-urls
 
-############################
-## Advanced options below ##
-############################
-# Get last modified date for content from Git?
-enableGitInfo = false
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"    # en / ja/ zh-cn / ..
-hasCJKLanguage = true  # Set `true` for Chinese/Japanese/Korean languages.
 footnotereturnlinkcontents = "↩"
 
-
-# pygmentsCodeFencesGuessSyntax = true
-# pygmentsStyle = "native"
-pygmentsUseClasses = true
-pygmentsCodeFences = true
+# Highlight options.
+# See https://gohugo.io/content-management/syntax-highlighting/
+PygmentsCodeFences = true # Enable syntax highlighting with GitHub flavoured code fences
+PygmentsUseClasses = true # Use CSS classes to format highlighted code
+PygmentsCodefencesGuessSyntax = true
+PygmentsOptions = "linenos=table"
 
 [author]
   name = "XIAO Yang"
@@ -52,7 +43,7 @@ pygmentsCodeFences = true
 [taxonomies]
   tag = "tags"
   category = "categories"
-  # author = "authors"
+  author = "authors"
 
 [permalinks]
     post = "/:year/:month/:day/:slug"
