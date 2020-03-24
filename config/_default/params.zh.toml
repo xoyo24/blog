@@ -25,18 +25,18 @@
 # # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
 # toc = true                                                                            # 是否开启目录
 # photoswipe = true         # see https://github.com/dimsemenov/PhotoSwipe            # 是否启用PhotoSwipe（图片可点击）
-# bootcdn = false           # In china. @Deprecated: use [params.publicCDN]             # 是否使用bootcdn(@Deprecated: 请使用[params.publicCDN])
 # mathjax = false           # see https://www.mathjax.org/                              # 是否使用mathjax（数学公式）
 # katex = false             # see https://github.com/KaTeX/KaTeX
 # contentCopyright = '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+contentCopyright = '本文采用<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank">知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议</a>进行许可'
 
 [social]
 #   a-email = "mailto:your@email.com"
 #   b-stack-overflow = "http://localhost:1313"
 #   c-twitter = "http://localhost:1313"
 #   e-linkedin = "http://localhost:1313"
-    g-github = "http://localhost:1313"
-    h-weibo = "http://localhost:1313"
+    g-github = "https://github.com/xoyo24"
+    # h-weibo = "http://localhost:1313"
 #   i-zhihu = "http://localhost:1313"
 #   k-pocket = "http://localhost:1313"
 #   s-mastodon = "http://localhost:1313"
