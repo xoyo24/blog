@@ -5,7 +5,7 @@
 [zh]
   languageName = "中文"
   contentDir = "content/zh"
-  defaultContentLanguage = "zh-cn"    # en / ja/ zh-cn / ..
+  languageCode = "zh-Hans"
   # title = "Chinese website title..."
 
 # [ja]

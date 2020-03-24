@@ -18,7 +18,6 @@ enableGitInfo = true      # Get last modified date for content from Git?
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"    # en / ja/ zh-cn / ..
-footnotereturnlinkcontents = "↩"
 
 # Highlight options.
 # See https://gohugo.io/content-management/syntax-highlighting/
