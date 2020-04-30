@@ -13,21 +13,21 @@
   weight = 20
   identifier = "archives"
   url = "/post/"
-[[main]]
-  name = "Categories"
-  weight = 30
-  identifier = "categories"
-  url = "/categories/"
+# [[main]]
+#   name = "Categories"
+#   weight = 30
+#   identifier = "categories"
+#   url = "/categories/"
 [[main]]
   name = "Tags"
   weight = 40
   identifier = "tags"
   url = "/tags/"
-[[main]]
-  name = "About"
-  weight = 50
-  identifier = "about"
-  url = "/about"
+# [[main]]
+#   name = "About"
+#   weight = 50
+#   identifier = "about"
+#   url = "/about"
 
 # [[menu.main]]
 #   name = "external-link"

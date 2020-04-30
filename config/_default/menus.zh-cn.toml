@@ -13,21 +13,21 @@
   weight = 20
   identifier = "posts"
   url = "/zh/post/"
-[[main]]
-  name = "分类"
-  weight = 30
-  identifier = "categories"
-  url = "/zh/categories/"
+# [[main]]
+#   name = "分类"
+#   weight = 30
+#   identifier = "categories"
+#   url = "/zh/categories/"
 [[main]]
   name = "标签"
   weight = 40
   identifier = "tags"
   url = "/zh/tags/"
-[[main]]
-  name = "关于"
-  weight = 50
-  identifier = "about"
-  url = "/zh/about"
+# [[main]]
+#   name = "关于"
+#   weight = 50
+#   identifier = "about"
+#   url = "/zh/about"
 
 # [[menu.main]]
 #   name = "external-link"
