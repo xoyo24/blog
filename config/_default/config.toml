@@ -1,6 +1,6 @@
 # see https://gohugo.io/getting-started/configuration/ .
 title = "XoYo24"
-baseurl = "https://zen-yonath-d0cf2b.netlify.com/"
+baseURL = "https://xoyo24.me/"
 theme = "jane"
 enableEmoji = true
 enableRobotsTXT = true
@@ -11,8 +11,8 @@ rssLimit = 20             # Limit Entry Count to Rss file # 限制 Rss 文章输
 copyright = ""            # default: author.name ↓        # 默认为下面配置的author.name ↓
 # Used only for Seo schema 
 # copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
-disqusShortname = "xoyo24"      # disqus_shortname
-googleAnalytics = ""      # UA-XXXXXXXX-X
+disqusShortname = ""      # disqus_shortname
+googleAnalytics = "UA-66610976-3"      # UA-XXXXXXXX-X
 enableGitInfo = true      # Get last modified date for content from Git?
 # uglyURLs = true           # more info: https://gohugo.io/content-management/urls/#ugly-urls
 

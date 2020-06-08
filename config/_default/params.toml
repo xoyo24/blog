@@ -29,9 +29,14 @@ mathjax = false           # see https://www.mathjax.org/                        
 katex = false             # see https://github.com/KaTeX/KaTeX
 contentCopyright = 'Released under <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>.' 
 
+[utteranc]         # utteranc is a comment system based on GitHub issues. see https://utteranc.es
+    enable = true
+    repo = "xoyo24/blog"    # The repo to store comments
+    issueTerm = "pathname"
+
 [gitInfo]
     gitRepo = "https://github.com/xoyo24/blog"
-    showCommitMessage = true
+    showCommitMessage = false
 
 [social]
   c-twitter = "https://twitter.com/xoyo24"
