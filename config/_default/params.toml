@@ -29,6 +29,10 @@ mathjax = false           # see https://www.mathjax.org/                        
 katex = false             # see https://github.com/KaTeX/KaTeX
 contentCopyright = 'Released under <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>.' 
 
+[gitInfo]
+    gitRepo = "https://github.com/xoyo24/blog"
+    showCommitMessage = true
+
 [social]
   c-twitter = "https://twitter.com/xoyo24"
   g-github = "https://github.com/xoyo24"
