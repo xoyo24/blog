@@ -38,8 +38,6 @@ Will the problem be solved? Probably no, concurrency problems will never be so e
 
 In this post, I'll try to provide my answer to `How to increase throughput in Akka stream by tuning the thread pool` and hope you can find something interesting or useful.
 
-<!--more-->
-
 ## Case #1: non-blocking process
 
 There are different kinds of definitions and implementations of `non-blocking`, we won't run into details of them this time. Instead, let's define `non-blocking` as,
